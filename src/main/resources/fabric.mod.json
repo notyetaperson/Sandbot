@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "nunkin",
+	"version": "${version}",
+	"name": "Nunkin SandBot",
+	"description": "Client-side sand farming bot for DonutSMP: RTPs until it finds a big patch of sky-exposed sand, mines it, sells it every cycle and pays the profits to a configured player. Press B (or use the pause menu button) to open the control panel.",
+	"authors": [
+		"Nunkin"
+	],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/nunkin/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.nunkin.NunkinClient"
+		]
+	},
+	"mixins": [
+		"nunkin.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

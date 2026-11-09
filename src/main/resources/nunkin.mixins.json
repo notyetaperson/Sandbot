@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.nunkin.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"KeyboardInputMixin",
+		"MinecraftMixin",
+		"MultiPlayerGameModeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
